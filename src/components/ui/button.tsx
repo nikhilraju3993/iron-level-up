@@ -10,6 +10,12 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
+        performance:
+          "bg-primary text-primary-foreground shadow-[0_0_24px_var(--primary-glow)] hover:bg-primary/85 active:scale-[0.98]",
+        bodybuilding:
+          "bg-bodybuilding text-bodybuilding-foreground hover:bg-bodybuilding/85 active:scale-[0.98]",
+        powerlifting:
+          "bg-powerlifting text-powerlifting-foreground hover:bg-powerlifting/85 active:scale-[0.98]",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
